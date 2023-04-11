@@ -3,13 +3,13 @@
 main {
     text-decoration: none;
     text-align: center;
+    justify-content: center;
     border: 5px;
     border-color: rgba(0, 0, 0);
     border-style: groove;
     padding: 0px;
     margin: 0px;
     border-radius: 0px;
-    justify-content: center;
 }
 
 /* ################################################################### */
@@ -183,8 +183,18 @@ main {
     border: 5px;
     border-color: black;
     border-style: groove;
-    width: 70%;
-    height: 70%;
+    width: 50%;
+    height: 50%;
+}
+
+@media (max-width: 800px) {
+    .foto-caricatura {
+        height: 240;
+    }
+
+    .foto-caricatura {
+        width: 340px;
+    }
 }
 
 .foto-hbo {
@@ -206,8 +216,18 @@ main {
     border: 5px;
     border-color: black;
     border-style: groove;
-    width: 50%;
-    height: 50%;
+    width: 41%;
+    height: 41%;
+}
+
+@media (max-width: 800px) {
+    .foto-hbo-1 {
+        height: 200px;
+    }
+
+    .foto-hbo-1 {
+        width: 310px;
+    }
 }
 
 .foto-hbo-2 {
@@ -222,8 +242,18 @@ main {
     border: 5px;
     border-color: black;
     border-style: groove;
-    width: 50%;
-    height: 50%;
+    width: 40%;
+    height: 40%;
+}
+
+@media (max-width: 800px) {
+    .foto-hbo-2 {
+        height: 200px;
+    }
+
+    .foto-hbo-2 {
+        width: 310px;
+    }
 }
 
 /* ################################################################### */
