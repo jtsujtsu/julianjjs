@@ -1,0 +1,189 @@
+/* ################################################################### */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+body {
+    background-image: url("https://github.com/jtsujtsu/juanjosejs.github.io/blob/main/imagenes/protagonista%20real.jpg?raw=true");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+@media (max-width: 800px) {
+    body {
+        background-repeat: repeat;
+        background-size: 100%;
+    }
+}
+
+/* ################################################################### */
+
+header {
+    text-decoration: none;
+    text-align: center;
+    border: 5px;
+    border-color: rgba(0, 0, 0);
+    border-style: groove;
+    padding: 0px;
+    margin: 0px;
+    border-radius: 0px;
+    justify-content: center;
+}
+
+/* ################################################################### */
+
+.estilo {
+    padding: 15px;
+    margin: 5px;
+    text-decoration: none;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.tit-cartel {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tit-cartel h1 {
+    padding: 20px;
+    margin: 15px;
+    background-color: hsla(282, 46%, 57%);
+    border-radius: 15px;
+    border: 5px;
+    border-color: black;
+    border-style: groove;
+    width: fit-content;
+    font-size: 300%;
+}
+
+@media (max-width: 800px) {
+    .tit-cartel h1 {
+        font-size: 200%;
+    }
+}
+
+.foto-cartel img {
+    padding: 20px;
+    margin: 5px;
+    background-color: rgba(0, 100, 0);
+    border-radius: 15px;
+    border: 5px;
+    border-color: black;
+    border-style: groove;
+    width: 50%;
+    height: 50%;
+}
+
+@media (max-width: 800px) {
+    .foto-cartel img {
+        height: 70%;
+    }
+
+    .foto-cartel img {
+        width: 70%;
+    }
+}
+
+/* ################################################################### */
+
+.estilo .foto-personajes {
+    padding: 0px;
+    margin: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 139);
+    border-radius: 15px;
+    border: 5px;
+    border-color: black;
+    border-style: groove;
+}
+
+.estilo .foto-personajes .foto-real {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px;
+    margin: 10px;
+    border-radius: 15px;
+    border: 5px;
+    border-color: black;
+    border-style: groove;
+    width: 310px;
+    height: 205px;
+}
+
+/*
+.estilo .foto-personajes .video-real {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px;
+    margin: 10px;
+    border-radius: 15px;
+    border: 5px;
+    border-color: black;
+    border-style: groove;
+    width: 310px;
+    height: 205px;
+}
+*/
+
+.estilo nav ul li:hover {
+    background-color: mediumseagreen;
+}
+
+.estilo nav ul {
+    text-decoration: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 2px;
+    margin: 5px;
+    background-color: rgba(0, 0, 139);
+    border-radius: 15px;
+    border: 5px;
+    border-color: black;
+    border-style: groove;
+}
+
+.estilo nav ul li {
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin: 5px;
+    background-color: #da9e56da;
+    border-radius: 15px;
+    border: 5px;
+    border-color: black;
+    border-style: groove;
+    width: 155px;
+    font-size: 18px;
+}
+
+.estilo nav ul li a {
+    text-decoration: none;
+    color: blue;
+}
+
+a {
+    text-decoration: none;
+    color: blue;
+}
+
+/* ################################################################### */
