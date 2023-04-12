@@ -74,7 +74,7 @@ footer {
     justify-content: center;
     align-items: center;
     text-decoration: none;
-    font-size: 17px;
+    font-size: 16px;
     width: 370px;
 }
 
@@ -116,7 +116,6 @@ footer {
     align-items: center;
     text-align: center;
     height: 70px;
-    font-size: 16px;
 }
 
 .pie-julian ul li {
@@ -155,7 +154,6 @@ footer {
     align-items: center;
     text-align: center;
     height: 70px;
-    font-size: 16px;
 }
 
 /* ################################################################### */
@@ -182,12 +180,6 @@ footer {
     border-style: groove;
 }
 
-.pie-profe ul li a {
-    font-size: 18px;
-    text-decoration: none;
-    color: blue;
-}
-
 .pie-julian ul li .ima-julian-celular {
     padding: 0px;
     margin: 5px;
@@ -212,7 +204,7 @@ footer {
 
 .pie-julian ul li .ima-julian:hover {
     width: 110px;
-    height: 120px;
+    height: 135px;
     position: absolute;
 }
 
@@ -321,7 +313,21 @@ footer {
 }
 
 .pie-julian ul li a {
-    font-size: 18px;
+    font-size: 16px;
+    text-decoration: none;
+    color: blue;
+    display: flex;
+    justify-content: center;
+}
+
+.leye2 .alum a {
+    font-size: 16px;
+    text-decoration: none;
+    color: blue;
+}
+
+.pie-profe ul li a {
+    font-size: 16px;
     text-decoration: none;
     color: blue;
     display: flex;
@@ -331,14 +337,27 @@ footer {
 /* ################################################################### */
 
 .ima-julian-estudio {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
     padding: 0px;
     margin: 5px;
-    width: 245px;
-    height: 280px;
+    width: 35%;
+    height: 35%;
     border-radius: 5px;
     border: 2px;
     border-color: black;
     border-style: groove;
+}
+
+@media (max-width: 800px) {
+    .ima-julian-estudio {
+        height: 180px;
+    }
+
+    .ima-julian-estudio {
+        width: 150px;
+    }
 }
 
 .estu {
@@ -353,7 +372,7 @@ footer {
     justify-content: center;
     align-items: center;
     text-align: center;
-    background-color: darkgrey;
+    background-color: darkseagreen;
     border: 5px;
     border-color: black;
     border-style: groove;
@@ -364,3 +383,11 @@ footer {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 15px;
 }
+
+@media (max-width: 800px) {
+    .estu text {
+        width: 400px;
+    }
+}
+
+/* ################################################################### */
