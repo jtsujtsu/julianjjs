@@ -3,13 +3,35 @@
 main {
     text-decoration: none;
     text-align: center;
-    justify-content: center;
+    justify-content: space-between;
     border: 5px;
     border-color: rgba(0, 0, 0);
     border-style: groove;
     padding: 0px;
     margin: 0px;
     border-radius: 0px;
+}
+
+@media (max-width: 800px) {
+    main {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        max-width: 100%;
+        max-height: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    main {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        max-width: 100%;
+        max-height: 100%;
+    }
 }
 
 /* ################################################################### */
@@ -126,6 +148,7 @@ main {
     padding: 0px;
     margin: 0px;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
 }
 
@@ -168,7 +191,7 @@ main {
     padding: 20px;
     margin: 20px;
     border-radius: 15px;
-    width: 500px;
+    width: 60%;
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     align-items: center;
@@ -188,9 +211,11 @@ main {
 
 @media (max-width: 800px) {
     .foto-caricatura {
-        height: 240px;
+        width: 340px;
     }
+}
 
+@media (max-width: 480px) {
     .foto-caricatura {
         width: 340px;
     }
@@ -221,9 +246,11 @@ main {
 
 @media (max-width: 800px) {
     .foto-hbo-1 {
-        height: 200px;
+        width: 310px;
     }
+}
 
+@media (max-width: 480px) {
     .foto-hbo-1 {
         width: 310px;
     }
@@ -247,9 +274,11 @@ main {
 
 @media (max-width: 800px) {
     .foto-hbo-2 {
-        height: 200px;
+        width: 310px;
     }
+}
 
+@media (max-width: 800px) {
     .foto-hbo-2 {
         width: 310px;
     }
