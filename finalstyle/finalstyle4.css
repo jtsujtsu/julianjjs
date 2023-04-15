@@ -1,48 +1,109 @@
-/*
-.tot-control {
-    text-decoration: none;
-    padding: 15px;
-    margin: 30px;
+.contenedor-grilla {
+    display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     text-align: center;
-    background-color: blueviolet;
-    border-radius: 15px;
-    border: 5px;
-    border-color: black;
-    border-style: groove;
-}
-*/
-/*
-.contorno {
-    background-color: darkorchid;
-    border-radius: 15px;
-    border: 5px;
-    border-color: black;
-    border-style: groove;
-    padding: 5px;
-    margin: 5px;
-    width: 200px;
-}
-*/
-/*
-.ima-contor {
-    border-radius: 15px;
-    border: 5px;
-    border-color: black;
-    border-style: groove;
-    width: 150px;
+    padding: 0px;
+    margin: 0px;
 }
 
-.tex-contor {
-    background-color: chartreuse;
+.texto-total {
+    background-color: cornflowerblue;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 15px;
+    border: 5px;
+    border-color: black;
+    border-style: groove;
+    padding: 5px;
+    margin: 20px;
+    width: fit-content;
+}
+
+.texto-total:hover {
+    display: flex;
+    background-color: blue;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
     border-radius: 15px;
     border: 5px;
     border-color: black;
     border-style: groove;
     padding: 5px;
     margin: 5px;
-    font-size: 22px;
-    width: 140px;
+    width: 240px;
 }
-*/
+
+.ima-contor {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 15px;
+    border: 5px;
+    border-color: black;
+    border-style: groove;
+    padding: 0px;
+    margin: 3px;
+    width: 180px;
+}
+
+.ima-contor:hover {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 15px;
+    border: 5px;
+    border-color: black;
+    border-style: groove;
+    padding: 0px;
+    margin: 3px;
+    width: 220px;
+}
+
+.texto-control {
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.tex-control {
+    background-color: chartreuse;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 15px;
+    border: 5px;
+    border-color: black;
+    border-style: groove;
+    padding: 5px;
+    margin: 3px;
+    font-size: 22px;
+    width: 180px;
+    height: 150px;
+}
+
+.tex-control:hover {
+    background-color: coral;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 15px;
+    border: 5px;
+    border-color: black;
+    border-style: groove;
+    padding: 5px;
+    margin: 3px;
+    font-size: 22px;
+    width: 220px;
+    height: 170px;
+}
