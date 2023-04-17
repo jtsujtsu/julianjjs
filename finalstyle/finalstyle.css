@@ -188,21 +188,7 @@ header {
 }
 
 /* ################################################################### */
-
-.foto-personajes {
-    padding: 0px;
-    margin: 15px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: cornflowerblue;
-    border-radius: 15px;
-    border: 5px;
-    border-color: black;
-    border-style: groove;
-    width: 340px;
-}
-
+/*
 .foto-personajes .foto-real {
     display: flex;
     align-items: center;
@@ -213,10 +199,9 @@ header {
     border: 5px;
     border-color: black;
     border-style: groove;
-    width: 310px;
+    width: 350px;
 }
-
-/*
+*/
 .foto-personajes .video-real {
     display: flex;
     align-items: center;
@@ -227,9 +212,8 @@ header {
     border: 5px;
     border-color: black;
     border-style: groove;
-    width: 310px;
+    width: 350px;
 }
-*/
 
 .estilo nav ul li:hover {
     background-color: mediumseagreen;

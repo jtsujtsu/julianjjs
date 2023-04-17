@@ -218,12 +218,12 @@ main {
     padding: 0px;
     margin: 0px;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
 }
 
 .sinopsis-texto p {
     display: flex;
-    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
     background-color: darkseagreen;
@@ -240,7 +240,6 @@ main {
 
 .sinopsis-texto .tex-imagen {
     display: flex;
-    flex-wrap: wrap;
     align-items: center;
     border: 5px;
     border-color: black;
@@ -261,7 +260,7 @@ main {
     align-items: center;
 }
 
-.caracteristicas-sinopsis img {
+.caracteristicas-sinopsis .video-real-creadores {
     border-radius: 15px;
     border: 5px;
     border-color: black;
