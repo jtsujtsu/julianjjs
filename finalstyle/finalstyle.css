@@ -88,14 +88,26 @@ header {
     justify-content: center;
 }
 
+.ima-inicio {
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 15px;
+    border: 5px;
+    border-color: black;
+    border-style: groove;
+    padding: 0px;
+    margin: 20px;
+}
 
 .tit-cartel {
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
 }
 
 .tit-cartel h1 {
+    display: flex;
     padding: 20px;
     margin: 15px;
     background-color: chartreuse;
@@ -119,7 +131,16 @@ header {
     }
 }
 
+.foto-cartel {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
 .foto-cartel img {
+    display: flex;
+    flex-wrap: wrap;
     padding: 20px;
     margin: 5px;
     background-color: rgba(0, 100, 0);
@@ -138,6 +159,30 @@ header {
 
 @media (max-width: 480px) {
     .foto-cartel img {
+        width: 300px
+    }
+}
+
+.foto-cartel .ima-segundo {
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 15px;
+    border: 5px;
+    border-color: black;
+    border-style: groove;
+    padding: 0px;
+    margin: 20px;
+    width: 35%;
+}
+
+@media (max-width: 800px) {
+    .foto-cartel .ima-segundo {
+        width: 300px;
+    }
+}
+
+@media (max-width: 480px) {
+    .foto-cartel .ima-segundo {
         width: 300px
     }
 }

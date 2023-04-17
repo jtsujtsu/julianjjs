@@ -266,7 +266,7 @@ footer {
     border-style: groove;
 }
 
-*/ .pie-julian ul li .ima-julian:hover {
+.pie-julian ul li .ima-julian:hover {
     width: 110px;
     position: absolute;
 }
