@@ -296,6 +296,144 @@ main {
 
 /* ################################################################### */
 
+.vid-reali {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.vid-hbo {
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    border: 5px;
+    border-color: black;
+    border-style: groove;
+    padding: 0px;
+    margin: 10px;
+    width: 700px;
+}
+
+@media (max-width: 800px) {
+    .vid-hbo {
+        width: 90%;
+    }
+}
+
+@media (max-width: 480px) {
+    .vid-hbo {
+        width: 90%;
+    }
+}
+
+.vid-reali .vid-real1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    border: 5px;
+    border-color: black;
+    border-style: groove;
+    padding: 0px;
+    margin: 10px;
+    width: 700px;
+}
+
+@media (max-width: 800px) {
+    .vid-reali .vid-real1 {
+        width: 90%;
+    }
+}
+
+@media (max-width: 480px) {
+    .vid-reali .vid-real1 {
+        width: 90%;
+    }
+}
+
+.vid-reali .vid-real2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    border: 5px;
+    border-color: black;
+    border-style: groove;
+    padding: 0px;
+    margin: 10px;
+    width: 700px;
+}
+
+@media (max-width: 800px) {
+    .vid-reali .vid-real2 {
+        width: 90%;
+    }
+}
+
+@media (max-width: 480px) {
+    .vid-reali .vid-real2 {
+        width: 90%;
+    }
+}
+
+.vid-reali .vid-real3 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    border: 5px;
+    border-color: black;
+    border-style: groove;
+    padding: 0px;
+    margin: 10px;
+    width: 700px;
+}
+
+@media (max-width: 800px) {
+    .vid-reali .vid-real3 {
+        width: 90%;
+    }
+}
+
+@media (max-width: 480px) {
+    .vid-reali .vid-real3 {
+        width: 90%;
+    }
+}
+
+.vid-reali .vid-sound {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    border: 5px;
+    border-color: black;
+    border-style: groove;
+    padding: 0px;
+    margin: 10px;
+    width: 700px;
+}
+
+@media (max-width: 800px) {
+    .vid-reali .vid-sound {
+        width: 90%;
+    }
+}
+
+@media (max-width: 480px) {
+    .vid-reali .vid-sound {
+        width: 90%;
+    }
+}
+
+/* ################################################################### */
+
 .foto-caricatura {
     border-radius: 15px;
     border: 5px;
