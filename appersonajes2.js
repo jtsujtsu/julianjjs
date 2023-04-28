@@ -4,7 +4,7 @@
 
 const $contenedor = document.getElementById("persona");
 
-const URL_API = "https://rickandmortyapi.com/api/character/?page=1";
+const URL_API = "https://rickandmortyapi.com/api/character/?page=2";
 
 // promesas (asincronnismo en JS)
 fetch(URL_API)
