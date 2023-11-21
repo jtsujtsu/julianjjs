@@ -1,0 +1,145 @@
+.persona-control {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+}
+
+.texto-total {
+    background-color: cornflowerblue;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 15px;
+    border: 5px;
+    border-color: black;
+    border-style: groove;
+    padding: 5px;
+    margin: 10px;
+    width: fit-content;
+}
+
+.texto-total:hover {
+    display: flex;
+    background-color: blue;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 15px;
+    border: 5px;
+    border-color: black;
+    border-style: groove;
+    padding: 5px;
+    margin: 5px;
+    width: 240px;
+}
+
+.ima-contor {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 15px;
+    border: 5px;
+    border-color: black;
+    border-style: groove;
+    padding: 0px;
+    margin: 3px;
+    width: 160px;
+}
+
+.ima-contor:hover {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 15px;
+    border: 5px;
+    border-color: black;
+    border-style: groove;
+    padding: 0px;
+    margin: 3px;
+    width: 200px;
+}
+
+.texto-control {
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.tex-control {
+    background-color: chartreuse;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 15px;
+    border: 5px;
+    border-color: black;
+    border-style: groove;
+    padding: 5px;
+    margin: 3px;
+    font-size: 22px;
+    width: 160px;
+    height: 170px;
+}
+
+.texreal-control {
+    background-color: chartreuse;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 15px;
+    border: 5px;
+    border-color: black;
+    border-style: groove;
+    padding: 5px;
+    margin: 3px;
+    font-size: 21px;
+    width: 160px;
+    height: 170px;
+}
+
+.tex-control:hover {
+    background-color: coral;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 15px;
+    border: 5px;
+    border-color: black;
+    border-style: groove;
+    padding: 5px;
+    margin: 3px;
+    font-size: 22px;
+    width: 200px;
+    height: 170px;
+}
+
+.texreal-control:hover {
+    background-color: coral;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 15px;
+    border: 5px;
+    border-color: black;
+    border-style: groove;
+    padding: 5px;
+    margin: 3px;
+    font-size: 21px;
+    width: 200px;
+    height: 170px;
+}

@@ -1,0 +1,453 @@
+/* ################################################################### */
+footer {
+    text-decoration: none;
+    text-align: center;
+    justify-content: space-between;
+    border: 5px;
+    border-color: rgba(0, 0, 0);
+    border-style: groove;
+    padding: 0px;
+    margin: 0px;
+    border-radius: 0px;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+@media (max-width: 800px) {
+    footer {
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        max-width: 100%;
+        max-height: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    footer {
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        max-width: 100%;
+        max-height: 100%;
+    }
+}
+
+/* ################################################################### */
+
+.pie-pagina {
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    text-decoration: none;
+    text-justify: center;
+    align-items: center;
+    justify-content: space-around;
+}
+
+@media (max-width: 800px) {
+    .pie-pagina {
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media (max-width: 480px) {
+    .pie-pagina {
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+.tit-biogra {
+    padding: 5px;
+    margin: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tit-biogra h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    margin: 20px;
+    text-align: center;
+    background-color: rgba(255, 255, 0);
+    border-radius: 15px;
+    border: 5px;
+    border-color: black;
+    border-style: groove;
+}
+
+.tit-biogra h2:hover {
+    background-color: mediumseagreen;
+}
+
+/* ################################################################### */
+
+.pie-profe ul {
+    padding: 0px;
+    margin: 0px;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    font-size: 17px;
+}
+
+@media (max-width: 800px) {
+    .pie-profe ul {
+        width: auto;
+    }
+}
+
+@media (max-width: 480px) {
+    .pie-profe ul {
+        width: auto;
+    }
+}
+
+.pie-julian ul {
+    padding: 0px;
+    margin: 0px;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    font-size: 17px;
+}
+
+@media (max-width: 800px) {
+    .pie-julian ul {
+        width: auto;
+    }
+}
+
+@media (max-width: 480px) {
+    .pie-julian ul {
+        width: auto;
+    }
+}
+
+/* ################################################################### */
+
+.pie-profe ul li {
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #84a7e7;
+    border-radius: 15px;
+    border: 5px;
+    border-color: black;
+    border-style: groove;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    height: 70px;
+    font-size: 17px;
+}
+
+.pie-profe ul .leye3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 70px;
+    font-size: 17px;
+}
+
+.pie-profe ul .leye4 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    height: 70px;
+    font-size: 17px;
+}
+
+.pie-profe ul .lin-utn {
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    height: 70px;
+    font-size: 17px;
+}
+
+.pie-julian ul li {
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #84a7e7;
+    border-radius: 15px;
+    border: 5px;
+    border-color: black;
+    border-style: groove;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    height: 70px;
+    font-size: 17px;
+}
+
+.pie-julian ul .leye1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 70px;
+    font-size: 17px;
+}
+
+.pie-julian ul .leye2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    height: 70px;
+    font-size: 17px;
+}
+
+.pie-julian ul .lin-utn {
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    font-size: 17px;
+}
+
+/* ################################################################### */
+
+.pie-profe ul li .ima-utn-mensa {
+    padding: 0px;
+    margin: 5px;
+    height: 50px;
+    width: 145px;
+    border-radius: 5px;
+    border: 2px;
+    border-color: black;
+    border-style: groove;
+}
+
+.pie-profe ul li .ima-profe-git {
+    padding: 0px;
+    margin: 5px;
+    height: 50px;
+    width: 55px;
+    border-radius: 5px;
+    border: 2px;
+    border-color: black;
+    border-style: groove;
+}
+
+.pie-julian ul li .ima-julian-celular {
+    padding: 0px;
+    margin: 5px;
+    height: 50px;
+    width: 30px;   
+    border-radius: 5px;
+    border: 2px;
+    border-color: black;
+    border-style: groove;
+}
+
+.pie-julian ul li .ima-julian {
+    padding: 0px;
+    margin: 5px;
+    width: 45px;
+    border-radius: 5px;
+    border: 2px;
+    border-color: black;
+    border-style: groove;
+}
+
+.pie-julian ul li .ima-julian:hover {
+    width: 110px;
+    position: absolute;
+}
+
+.pie-profe ul li .ima-profe {
+    padding: 0px;
+    margin: 5px;
+    width: 45px;
+    border-radius: 5px;
+    border: 2px;
+    border-color: black;
+    border-style: groove;
+}
+
+.pie-profe ul li .ima-profe:hover {
+    width: 110px;
+    position: absolute;
+}
+
+.pie-julian ul li .ima-julian-git {
+    padding: 0px;
+    margin: 5px;
+    height: 50px;
+    width: 55px;
+    border-radius: 5px;
+    border: 2px;
+    border-color: black;
+    border-style: groove;
+}
+
+.pie-julian ul li .ima-julian-email {
+    padding: 0px;
+    margin: 5px;
+    height: 50px;
+    width: 45px;
+    border-radius: 5px;
+    border: 2px;
+    border-color: black;
+    border-style: groove;
+}
+
+.pie-profe ul li .ima-profe-email {
+    padding: 0px;
+    margin: 5px;
+    height: 50px;
+    width: 45px;
+    border-radius: 5px;
+    border: 2px;
+    border-color: black;
+    border-style: groove;
+}
+
+.pie-julian ul li .ima-julian-utn {
+    padding: 0px;
+    margin: 5px;
+    height: 50px;
+    width: 130px;
+    border-radius: 5px;
+    border: 2px;
+    border-color: black;
+    border-style: groove;
+}
+
+.pie-profe ul li .ima-profe-utn {
+    padding: 0px;
+    margin: 5px;
+    height: 50px;
+    width: 130px;
+    border-radius: 5px;
+    border: 2px;
+    border-color: black;
+    border-style: groove;
+}
+
+/* ################################################################### */
+
+.pie-julian ul li .nume {
+    padding: 0px;
+    margin: 50px;
+    font-size: 17px;
+}
+
+.pie-julian ul li .lin1 {
+    padding: 0px;
+    margin: 50px;
+    font-size: 22px;
+}
+
+.pie-julian ul li .alum {
+    padding: 0px;
+    margin: 20px;
+    font-size: 18px;
+}
+
+.pie-profe ul li .alum {
+    padding: 0px;
+    margin: 3px;
+    font-size: 18px;
+}
+
+.pie-julian ul li .lin3 {
+    padding: 0px;
+    margin: 45px;
+    font-size: 18px;
+}
+
+.pie-profe ul li .lin2 {
+    padding: 0px;
+    margin: 30px;
+    font-size: 22px;
+}
+
+.pie-profe ul li .lin3 {
+    padding: 0px;
+    margin: 5px;
+    font-size: 18px;
+}
+
+/* ################################################################### */
+
+.ima-julian-estudio {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0px;
+    margin: 5px;
+    width: 35%;
+    border-radius: 5px;
+    border: 2px;
+    border-color: black;
+    border-style: groove;
+}
+
+@media (max-width: 800px) {
+    .ima-julian-estudio {
+        width: 150px;
+    }
+}
+
+@media (max-width: 480px) {
+    .ima-julian-estudio {
+        width: 150px;
+    }
+}
+
+.estu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.estu text {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: darkseagreen;
+    border: 5px;
+    border-color: black;
+    border-style: groove;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 15px;
+    width: 65%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+}
+
+@media (max-width: 800px) {
+    .estu text {
+        width: 400px;
+    }
+}
+
+@media (max-width: 480px) {
+    .estu text {
+        width: 400px;
+    }
+}
+
+/* ################################################################### */

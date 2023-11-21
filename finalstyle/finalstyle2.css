@@ -1,0 +1,523 @@
+/* ################################################################### */
+
+main {
+    text-decoration: none;
+    text-align: center;
+    justify-content: space-between;
+    border: 5px;
+    border-color: rgba(0, 0, 0);
+    border-style: groove;
+    padding: 0px;
+    margin: 0px;
+    border-radius: 0px;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+@media (max-width: 800px) {
+    main {
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        max-width: 100%;
+        max-height: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    main {
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        max-width: 100%;
+        max-height: 100%;
+    }
+}
+
+/* ################################################################### */
+
+.tit-sinop {
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+}
+
+.tit-sinop h2 {
+    padding: 15px;
+    margin: 20px;
+    width: fit-content;
+    height: auto;
+    background-color: rgba(255, 255, 0);
+    border-radius: 15px;
+    border: 5px;
+    border-color: black;
+    border-style: groove;
+    text-align: center;
+}
+
+.tit-perso {
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+}
+
+.tit-perso h2 {
+    padding: 15px;
+    margin: 20px;
+    width: fit-content;
+    height: auto;
+    background-color: rgba(255, 255, 0);
+    border-radius: 15px;
+    border: 5px;
+    border-color: black;
+    border-style: groove;
+    text-align: center;
+}
+
+.tit-serie {
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+}
+
+.tit-serie h2 {
+    padding: 15px;
+    margin: 20px;
+    width: fit-content;
+    height: auto;
+    background-color: rgba(255, 255, 0);
+    border-radius: 15px;
+    border: 5px;
+    border-color: black;
+    border-style: groove;
+    text-align: center;
+}
+
+.tit-sinop h2:hover {
+    background-color: mediumseagreen;
+}
+
+.tit-perso h2:hover {
+    background-color: mediumseagreen;
+}
+
+.tit-serie h2:hover {
+    background-color: mediumseagreen;
+}
+
+/* ################################################################### */
+
+.sinopsis {
+    padding: 5px;
+    margin: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    text-decoration: none;
+    justify-content: center;
+    text-justify: center;
+    align-items: center;
+}
+
+.ver-serie {
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+}
+
+.ver-serie p {
+    display: flex;
+    justify-content: center;
+    text-justify: center;
+    align-items: center;
+    background-color: darkseagreen;
+    border: 5px;
+    border-color: black;
+    border-style: groove;
+    padding: 10px;
+    margin: 30px;
+    border-radius: 15px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    width: 90%;
+}
+
+.ver-serie p:hover {
+    color: blanchedalmond;
+    background-color: hsl(271, 83%, 23%);
+}
+
+.ver-serie p a:hover {
+    color: blanchedalmond;
+    background-color: hsl(271, 83%, 23%);
+}
+
+.ver-serie .foto-hbo-cuad1 {
+    border: 5px;
+    border-color: black;
+    border-style: groove;
+    padding: 0px;
+    margin: 5px;
+    border-radius: 15px;
+    width: 200px;
+}
+
+.ver-serie .foto-hbo-cuad1:hover {
+    border: 5px;
+    border-color: black;
+    border-style: groove;
+    padding: 0px;
+    margin: 5px;
+    border-radius: 15px;
+    width: 400px;
+}
+
+.ver-serie .foto-hbo-cuad2 {
+    border: 5px;
+    border-color: black;
+    border-style: groove;
+    flex-wrap: wrap;
+    padding: 0px;
+    margin: 5px;
+    border-radius: 15px;
+    width: 200px;
+}
+
+.ver-serie .foto-hbo-cuad2:hover {
+    border: 5px;
+    border-color: black;
+    border-style: groove;
+    flex-wrap: wrap;
+    padding: 0px;
+    margin: 5px;
+    border-radius: 15px;
+    width: 350px;
+}
+
+@media (max-width: 800px) {
+    .ver-serie p {
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width: 480px) {
+    .ver-serie p {
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+}
+
+.sinopsis-texto {
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.sinopsis-texto p {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    background-color: darkseagreen;
+    border: 5px;
+    border-color: black;
+    border-style: groove;
+    padding: 20px;
+    margin: 5px;
+    border-radius: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    width: 70%;
+}
+
+.sinopsis-texto .tex-imagen {
+    display: flex;
+    align-items: center;
+    border: 5px;
+    border-color: black;
+    border-style: groove;
+    padding: 0px;
+    margin: 5px;
+    border-radius: 15px;
+    width: 270px;
+    height: 280px;
+}
+
+.caracteristicas-sinopsis {
+    padding: 15px;
+    margin: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.caracteristicas-sinopsis .video-real-creadores {
+    border-radius: 15px;
+    border: 5px;
+    border-color: black;
+    border-style: groove;
+}
+
+.caracteristicas-sinopsis text {
+    background-color: darkseagreen;
+    border: 5px;
+    border-color: black;
+    border-style: groove;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 15px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    align-items: center;
+    text-align: center;
+    font-size: 20px;
+    width: fit-content;
+}
+
+@media (max-width: 800px) {
+    .caracteristicas-sinopsis text {
+        width: 90%;
+    }
+}
+
+@media (max-width: 480px) {
+    .caracteristicas-sinopsis text {
+        width: 90%;
+    }
+}
+
+/* ################################################################### */
+
+.vid-reali {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.vid-hbo {
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    border: 5px;
+    border-color: black;
+    border-style: groove;
+    padding: 0px;
+    margin: 10px;
+    width: 700px;
+}
+
+@media (max-width: 800px) {
+    .vid-hbo {
+        width: 90%;
+    }
+}
+
+@media (max-width: 480px) {
+    .vid-hbo {
+        width: 90%;
+    }
+}
+
+.vid-reali .vid-real1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    border: 5px;
+    border-color: black;
+    border-style: groove;
+    padding: 0px;
+    margin: 10px;
+    width: 700px;
+}
+
+@media (max-width: 800px) {
+    .vid-reali .vid-real1 {
+        width: 90%;
+    }
+}
+
+@media (max-width: 480px) {
+    .vid-reali .vid-real1 {
+        width: 90%;
+    }
+}
+
+.vid-reali .vid-real2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    border: 5px;
+    border-color: black;
+    border-style: groove;
+    padding: 0px;
+    margin: 10px;
+    width: 700px;
+}
+
+@media (max-width: 800px) {
+    .vid-reali .vid-real2 {
+        width: 90%;
+    }
+}
+
+@media (max-width: 480px) {
+    .vid-reali .vid-real2 {
+        width: 90%;
+    }
+}
+
+.vid-reali .vid-real3 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    border: 5px;
+    border-color: black;
+    border-style: groove;
+    padding: 0px;
+    margin: 10px;
+    width: 700px;
+}
+
+@media (max-width: 800px) {
+    .vid-reali .vid-real3 {
+        width: 90%;
+    }
+}
+
+@media (max-width: 480px) {
+    .vid-reali .vid-real3 {
+        width: 90%;
+    }
+}
+
+.vid-reali .vid-sound {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    border: 5px;
+    border-color: black;
+    border-style: groove;
+    padding: 0px;
+    margin: 10px;
+    width: 700px;
+}
+
+@media (max-width: 800px) {
+    .vid-reali .vid-sound {
+        width: 90%;
+    }
+}
+
+@media (max-width: 480px) {
+    .vid-reali .vid-sound {
+        width: 90%;
+    }
+}
+
+/* ################################################################### */
+
+.foto-caricatura {
+    border-radius: 15px;
+    border: 5px;
+    border-color: black;
+    border-style: groove;
+    width: 50%;
+    height: 50%;
+}
+
+@media (max-width: 800px) {
+    .foto-caricatura {
+        width: 340px;
+    }
+}
+
+@media (max-width: 480px) {
+    .foto-caricatura {
+        width: 340px;
+    }
+}
+
+.foto-hbo {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+}
+
+.foto-hbo-1 {
+    padding: 0px;
+    margin: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    border: 5px;
+    border-color: black;
+    border-style: groove;
+    width: 41%;
+    height: 41%;
+}
+
+@media (max-width: 800px) {
+    .foto-hbo-1 {
+        width: 310px;
+    }
+}
+
+@media (max-width: 480px) {
+    .foto-hbo-1 {
+        width: 310px;
+    }
+}
+
+.foto-hbo-2 {
+    padding: 0px;
+    margin: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    border: 5px;
+    border-color: black;
+    border-style: groove;
+    width: 40%;
+    height: 40%;
+}
+
+@media (max-width: 800px) {
+    .foto-hbo-2 {
+        width: 310px;
+    }
+}
+
+@media (max-width: 800px) {
+    .foto-hbo-2 {
+        width: 310px;
+    }
+}
+
+/* ################################################################### */
