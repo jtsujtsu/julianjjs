@@ -95,11 +95,12 @@ footer {
     align-items: center;
     flex-wrap: wrap;
     font-size: 17px;
+    width: 500px;
 }
 
 @media (max-width: 800px) {
     .pie-profe ul {
-        width: auto;
+        width: 450px;
     }
 }
 
@@ -116,11 +117,12 @@ footer {
     align-items: center;
     flex-wrap: wrap;
     font-size: 17px;
+    width: 500px;
 }
 
 @media (max-width: 800px) {
     .pie-julian ul {
-        width: auto;
+        width: 450px;
     }
 }
 
