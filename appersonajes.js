@@ -1,22 +1,38 @@
+let pagina = 3;
+
+const btnuno = document.getElementById("btnuno");
+const btndos = document.getElementById("btndos");
+
 const $contenedor = document.getElementById("persona");
-const URL_API = "https://rickandmortyapi.com/api/character/?page=1";
+
+btnuno.addEventListener("click", () => {
+  pagina = 1;
+  cargarpersonajes();
+});
+
+btndos.addEventListener("click", () => {
+  pagina = 5;
+  cargarpersonajes();
+  response.json();
+  persona();
+});
+
+const cargarpersonajes = `https://rickandmortyapi.com/api/character/?page=${pagina}`;
 
 // API
 // Contenedor de html para renderizar contenido
-// promesas (asincronnismo en JS)
+// promesas (asincronnismo en JS
 
-fetch(URL_API)
-
- .then((response) => {
+fetch(cargarpersonajes)
+  .then((response) => {
     return response.json();
- })
+  })
 
- .then((data) => {
+  .then((data) => {
     const persona = data.results;
 
     // persona.length
     for (let i = 0; i < persona.length; i++) {
-
       //desctructuring
       const { name, gender, species, status, image } = persona[i];
 
@@ -24,6 +40,7 @@ fetch(URL_API)
       
       <div class="persona-control">
       <div class="texto-total">
+      <h5>${pagina}</h5>
        <img
         class="ima-contor"
         src="${image}"
@@ -31,7 +48,7 @@ fetch(URL_API)
        />
        <div class="texto-control">
         <div class="tex-control">
-         <h5>${name}</h5>
+         <h5>${name}</h5>         
           <b>
            <h6>Estado:${status}</h6>
            <h6>Género:${gender}</h6>
@@ -42,6 +59,6 @@ fetch(URL_API)
       </div>
       </div>
   
-      `;   
+      `;
     }
- });
+  });
