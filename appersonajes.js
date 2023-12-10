@@ -8,6 +8,8 @@ const $contenedor = document.getElementById("persona");
 btnuno.addEventListener("click", () => {
   pagina = 1;
   cargarpersonajes();
+  response.json();
+  persona();
 });
 
 btndos.addEventListener("click", () => {
