@@ -4,22 +4,21 @@ const btnuno = document.getElementById("btnuno");
 const btndos = document.getElementById("btndos");
 
 const $contenedor = document.getElementById("persona");
+const cargarpersonajes = `https://rickandmortyapi.com/api/character/?page=${pagina}`;
 
 btnuno.addEventListener("click", () => {
-  pagina = 1;
+  let pagina = 1;
   cargarpersonajes();
   response.json();
   persona();
 });
 
 btndos.addEventListener("click", () => {
-  pagina = 5;
+  let pagina = 5;
   cargarpersonajes();
   response.json();
   persona();
 });
-
-const cargarpersonajes = `https://rickandmortyapi.com/api/character/?page=${pagina}`;
 
 // API
 // Contenedor de html para renderizar contenido
