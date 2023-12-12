@@ -7,17 +7,13 @@ const $contenedor = document.getElementById("persona");
 const cargarpersonajes = `https://rickandmortyapi.com/api/character/?page=${pagina}`;
 
 btnuno.addEventListener("click", () => {
-  let pagina = 1;
+  pagina = 1;
   cargarpersonajes();
-  response.json();
-  persona();
 });
 
 btndos.addEventListener("click", () => {
-  let pagina = 5;
+  pagina = 5;
   cargarpersonajes();
-  response.json();
-  persona();
 });
 
 // API
